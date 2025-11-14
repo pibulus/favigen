@@ -1,0 +1,14 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:{{COLOR1}};stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:{{COLOR2}};stop-opacity:0.2" />
+    </linearGradient>
+    <filter id="blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.5" />
+    </filter>
+  </defs>
+  <circle cx="50" cy="50" r="40" fill="url(#grad)" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+  <circle cx="50" cy="50" r="40" fill="none" stroke="url(#grad)" stroke-width="1" filter="url(#blur)"/>
+  <text x="50" y="58" font-family="Arial, sans-serif" font-size="32" font-weight="600" text-anchor="middle" fill="{{TEXT_COLOR}}" style="filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3))">{{LETTER}}</text>
+</svg>

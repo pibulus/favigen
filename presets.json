@@ -1,0 +1,136 @@
+{
+  "presets": {
+    "tech-startup": {
+      "name": "Tech Startup",
+      "template": "glassmorphic/glass-rounded",
+      "color1": "#6366f1",
+      "color2": "#8b5cf6",
+      "letter": "T",
+      "description": "Modern glassmorphic design for tech companies"
+    },
+    "creative-agency": {
+      "name": "Creative Agency",
+      "template": "gradients/radial-burst",
+      "color1": "#ec4899",
+      "color2": "#f59e0b",
+      "letter": "C",
+      "description": "Vibrant radial gradient for creative brands"
+    },
+    "minimal-dark": {
+      "name": "Minimal Dark",
+      "template": "geometric/split-diagonal",
+      "color1": "#1f2937",
+      "color2": "#374151",
+      "letter": "M",
+      "description": "Clean minimal design with dark tones"
+    },
+    "developer-tools": {
+      "name": "Developer Tools",
+      "template": "icons/code",
+      "color1": "#10b981",
+      "color2": "#059669",
+      "letter": "",
+      "description": "Code icon for developer tools and IDEs"
+    },
+    "fast-performance": {
+      "name": "Fast & Performance",
+      "template": "icons/lightning",
+      "color1": "#f59e0b",
+      "color2": "#eab308",
+      "letter": "",
+      "description": "Lightning bolt for speed and performance"
+    },
+    "modern-saas": {
+      "name": "Modern SaaS",
+      "template": "glassmorphic/glass-circle",
+      "color1": "#3b82f6",
+      "color2": "#06b6d4",
+      "letter": "S",
+      "description": "Professional glassmorphic circle for SaaS products"
+    },
+    "premium-product": {
+      "name": "Premium Product",
+      "template": "neumorphic/soft-circle",
+      "color1": "#7c3aed",
+      "color2": "#a855f7",
+      "letter": "P",
+      "description": "Soft neumorphic design for premium feel"
+    },
+    "geometric-modern": {
+      "name": "Geometric Modern",
+      "template": "geometric/diamond-layers",
+      "color1": "#ef4444",
+      "color2": "#f97316",
+      "letter": "G",
+      "description": "Bold geometric layers for modern brands"
+    },
+    "space-tech": {
+      "name": "Space & Tech",
+      "template": "icons/rocket",
+      "color1": "#6366f1",
+      "color2": "#3b82f6",
+      "letter": "",
+      "description": "Rocket icon for space tech and startups"
+    },
+    "elegant-waves": {
+      "name": "Elegant Waves",
+      "template": "patterns/waves",
+      "color1": "#0ea5e9",
+      "color2": "#06b6d4",
+      "letter": "W",
+      "description": "Smooth wave pattern for elegant designs"
+    },
+    "dotted-texture": {
+      "name": "Dotted Texture",
+      "template": "patterns/dots",
+      "color1": "#8b5cf6",
+      "color2": "#a855f7",
+      "letter": "D",
+      "description": "Textured dot pattern for visual interest"
+    },
+    "grid-system": {
+      "name": "Grid System",
+      "template": "patterns/grid",
+      "color1": "#14b8a6",
+      "color2": "#06b6d4",
+      "letter": "G",
+      "description": "Grid pattern for systematic designs"
+    },
+    "star-quality": {
+      "name": "Star Quality",
+      "template": "icons/star",
+      "color1": "#fbbf24",
+      "color2": "#f59e0b",
+      "letter": "",
+      "description": "Star icon for quality and achievement"
+    },
+    "settings-config": {
+      "name": "Settings & Config",
+      "template": "icons/gear",
+      "color1": "#64748b",
+      "color2": "#475569",
+      "letter": "",
+      "description": "Gear icon for settings and configuration"
+    },
+    "triple-gradient": {
+      "name": "Triple Gradient",
+      "template": "gradients/multi-stop",
+      "color1": "#ec4899",
+      "color2": "#8b5cf6",
+      "letter": "T",
+      "description": "Multi-stop gradient for rich color blending"
+    }
+  },
+  "color_schemes": {
+    "ocean": {"color1": "#0ea5e9", "color2": "#06b6d4", "name": "Ocean Blue"},
+    "sunset": {"color1": "#f97316", "color2": "#ec4899", "name": "Sunset"},
+    "forest": {"color1": "#10b981", "color2": "#059669", "name": "Forest Green"},
+    "royal": {"color1": "#6366f1", "color2": "#8b5cf6", "name": "Royal Purple"},
+    "fire": {"color1": "#ef4444", "color2": "#f97316", "name": "Fire"},
+    "gold": {"color1": "#fbbf24", "color2": "#f59e0b", "name": "Gold"},
+    "midnight": {"color1": "#1e293b", "color2": "#334155", "name": "Midnight"},
+    "mint": {"color1": "#34d399", "color2": "#10b981", "name": "Mint"},
+    "rose": {"color1": "#fb7185", "color2": "#ec4899", "name": "Rose"},
+    "cyber": {"color1": "#06b6d4", "color2": "#8b5cf6", "name": "Cyberpunk"}
+  }
+}
