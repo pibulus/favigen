@@ -1,0 +1,11 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:{{COLOR1}};stop-opacity:0.35" />
+      <stop offset="100%" style="stop-color:{{COLOR2}};stop-opacity:0.25" />
+    </linearGradient>
+  </defs>
+  <polygon points="50,8 88,28 88,72 50,92 12,72 12,28" fill="url(#grad)" stroke="rgba(255,255,255,0.35)" stroke-width="2"/>
+  <polygon points="50,18 78,33 78,67 50,82 22,67 22,33" fill="rgba(255,255,255,0.08)"/>
+  <text x="50" y="58" font-family="Arial, sans-serif" font-size="32" font-weight="600" text-anchor="middle" fill="{{TEXT_COLOR}}" style="filter: drop-shadow(0 2px 4px rgba(0,0,0,0.35))">{{LETTER}}</text>
+</svg>

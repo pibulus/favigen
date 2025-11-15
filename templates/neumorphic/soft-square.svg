@@ -1,0 +1,15 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:{{COLOR1}};stop-opacity:1" />
+      <stop offset="100%" style="stop-color:{{COLOR2}};stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="4" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.25"/>
+      <feDropShadow dx="-3" dy="-3" stdDeviation="3" flood-color="#fff" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+  <rect width="100" height="100" fill="url(#grad)"/>
+  <rect x="20" y="20" width="60" height="60" rx="12" fill="url(#grad)" filter="url(#shadow)"/>
+  <text x="50" y="58" font-family="Arial, sans-serif" font-size="32" font-weight="600" text-anchor="middle" fill="{{TEXT_COLOR}}">{{LETTER}}</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="0,0 100,0 0,100" fill="{{COLOR1}}"/>
+  <polygon points="100,0 100,100 0,100" fill="{{COLOR2}}"/>
+  <circle cx="50" cy="50" r="30" fill="{{STROKE}}" opacity="0.9"/>
+  <text x="50" y="58" font-family="Arial, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="{{TEXT_COLOR}}">{{LETTER}}</text>
+</svg>
